@@ -185,7 +185,7 @@ export const products = [
         image: [p_img1_1, p_img1_2, p_img1_3, p_img1_4],
         category: "Women",
         subCategory: "Analog",
-        color: "Rose Gold",
+        color: "pink",
         date: 1716634345448,
         bestseller: true
     },
@@ -201,7 +201,7 @@ export const products = [
         image: [p_img2_1, p_img2_2, p_img2_3, p_img2_4],
         category: "Women",
         subCategory: "Analog",
-        color: "Rose Gold",
+        color: "pink",
         date: 1716234545448,
         bestseller: true
     },
@@ -217,7 +217,7 @@ export const products = [
         image: [p_img3_1, p_img3_2, p_img3_3, p_img3_4],
         category: "Men",
         subCategory: "Analog",
-        color: "Silver",
+        color: "gray",
         date: 1716234545448,
         bestseller: true
     },
@@ -233,7 +233,7 @@ export const products = [
         image: [p_img4_1, p_img4_2, p_img4_3, p_img4_4],
         category: "Unisex",
         subCategory: "Analog",
-        color: "Black",
+        color: "black",
         date: 1716621345448,
         bestseller: true
     },
@@ -249,7 +249,7 @@ export const products = [
         image: [p_img5_1, p_img5_2, p_img5_3, p_img5_4],
         category: "Men",
         subCategory: "Analog",
-        color: "Blue",
+        color: "blue",
         date: 1716622345448,
         bestseller: true
     },
@@ -265,7 +265,7 @@ export const products = [
         image: [p_img6_1, p_img6_2, p_img6_3, p_img6_4],
         category: "Unisex",
         subCategory: "Smart",
-        color: "Black",
+        color: "black",
         date: 1716623423448,
         bestseller: true
     },
@@ -281,7 +281,7 @@ export const products = [
         image: [p_img7_1, p_img7_2, p_img7_3, p_img7_4],
         category: "Women",
         subCategory: "Digital",
-        color: "Rose Gold",
+        color: "pink",
         date: 1716621542448,
         bestseller: false
     },
@@ -297,7 +297,7 @@ export const products = [
         image: [p_img8_1, p_img8_2, p_img8_3, p_img8_4],
         category: "Unisex",
         subCategory: "Smart",
-        color: "Pink",
+        color: "pink",
         date: 1716622345448,
         bestseller: false
     },
@@ -313,7 +313,7 @@ export const products = [
         image: [p_img9_1, p_img9_2, p_img9_3, p_img9_4],
         category: "Men",
         subCategory: "Digital",
-        color: "Red",
+        color: "red",
         date: 1716621235448,
         bestseller: false
     },
@@ -329,7 +329,7 @@ export const products = [
         image: [p_img10_1, p_img10_2, p_img10_3, p_img10_4],
         category: "Men",
         subCategory: "Digital",
-        color: "Blue",
+        color: "blue",
         date: 1716622235448,
         bestseller: false
     },
@@ -345,7 +345,7 @@ export const products = [
         image: [p_img11_1, p_img11_2, p_img11_3, p_img11_4],
         category: "Men",
         subCategory: "Analog",
-        color: "Black",
+        color: "black",
         date: 1716623345448,
         bestseller: false
     },
@@ -361,7 +361,7 @@ export const products = [
         image: [p_img12_1, p_img12_2, p_img12_3, p_img12_4],
         category: "Women",
         subCategory: "Analog",
-        color: "Pink",
+        color: "pink",
         date: 1716624445448,
         bestseller: false
     },
@@ -377,7 +377,7 @@ export const products = [
         image: [p_img13_1, p_img13_2, p_img13_3, p_img13_4],
         category: "Women",
         subCategory: "Smart",
-        color: "Pink",
+        color: "pink",
         date: 1716625545448,
         bestseller: false
     },
@@ -393,7 +393,7 @@ export const products = [
         image: [p_img14_1, p_img14_2, p_img14_3, p_img14_4],
         category: "Men",
         subCategory: "Analog",
-        color: "Blue",
+        color: "blue",
         date: 1716626645448,
         bestseller: false
     },
@@ -409,7 +409,7 @@ export const products = [
         image: [p_img15_1, p_img15_2, p_img15_3, p_img15_4],
         category: "Women",
         subCategory: "Analog",
-        color: "Pink",
+        color: "pink",
         date: 1716626645449,
         bestseller: true
     },
@@ -425,7 +425,7 @@ export const products = [
         image: [p_img16_1, p_img16_2, p_img16_3, p_img16_4],
         category: "Unisex",
         subCategory: "Smart",
-        color: "White",
+        color: "white",
         date: 1716626645450,
         bestseller: true
     },
@@ -441,7 +441,7 @@ export const products = [
         image: [p_img17_1, p_img17_2, p_img17_3, p_img17_4],
         category: "Unisex",
         subCategory: "Smart",
-        color: "Black",
+        color: "black",
         date: 1716626645451,
         bestseller: false
     },
@@ -457,7 +457,7 @@ export const products = [
         image: [p_img18_1, p_img18_2, p_img18_3, p_img18_4],
         category: "Unisex",
         subCategory: "Smart",
-        color: "Green",
+        color: "green",
         date: 1716626645452,
         bestseller: true
     },
@@ -473,7 +473,7 @@ export const products = [
         image: [p_img19_1, p_img19_2, p_img19_3, p_img19_4],
         category: "Unisex",
         subCategory: "Smart",
-        color: "Silver",
+        color: "gray",
         date: 1716626645453,
         bestseller: true
     },
@@ -489,7 +489,7 @@ export const products = [
         image: [p_img20_1, p_img20_2, p_img20_3, p_img20_4],
         category: "Unisex",
         subCategory: "Smart",
-        color: "Deep Blue",
+        color: "blue",
         date: 1716626645454,
         bestseller: false
     },
@@ -505,7 +505,7 @@ export const products = [
         image: [p_img21_1, p_img21_2, p_img21_3, p_img21_4],
         category: "Unisex",
         subCategory: "Smart",
-        color: "Black",
+        color: "black",
         date: 1716626645455,
         bestseller: true
     },
@@ -521,7 +521,7 @@ export const products = [
         image: [p_img22_1, p_img22_2, p_img22_3, p_img22_4],
         category: "Men",
         subCategory: "Analog",
-        color: "Rose Gold",
+        color: "pink",
         date: 1716626645456,
         bestseller: true
     },
@@ -537,7 +537,7 @@ export const products = [
         image: [p_img23_1, p_img23_2, p_img23_3, p_img23_4],
         category: "Men",
         subCategory: "Analog",
-        color: "Silver",
+        color: "gray",
         date: 1716626645457,
         bestseller: false
     },
@@ -553,7 +553,7 @@ export const products = [
         image: [p_img24_1, p_img24_2, p_img24_3, p_img24_4],
         category: "Unisex",
         subCategory: "Anlaog",
-        color: "Teal",
+        color: "teal",
         date: 1716626645458,
         bestseller: true
     },
@@ -561,7 +561,7 @@ export const products = [
         _id: "aaay",
         model: "NS2634QM01",
         company: "Titan",
-        name: "Titan Purple Glam It Up Brown Dial Analog with Date Stainless Steel Strap Watch for Women",
+        name: "Titan Purple Glam It Up brown Dial Analog with Date Stainless Steel Strap Watch for Women",
         warranty: "2 Year",
         strapMaterial: "Stainless Steel",
         waterResistant: "N/A",
@@ -569,7 +569,7 @@ export const products = [
         image: [p_img25_1, p_img25_2, p_img25_3, p_img25_4],
         category: "Women",
         subCategory: "Analog",
-        color: "Brown",
+        color: "brown",
         date: 1716626645459,
         bestseller: true
     },
@@ -585,7 +585,7 @@ export const products = [
         image: [p_img26_1, p_img26_2, p_img26_3, p_img26_4],
         category: "Men",
         subCategory: "Analog",
-        color: "Blue",
+        color: "blue",
         date: 1716626645460,
         bestseller: false
     },
@@ -601,7 +601,7 @@ export const products = [
         image: [p_img27_1, p_img27_2, p_img27_3, p_img27_4],
         category: "Men",
         subCategory: "Analog",
-        color: "White",
+        color: "white",
         date: 1716626645461,
         bestseller: true
     },
@@ -617,7 +617,7 @@ export const products = [
         image: [p_img28_1, p_img28_2, p_img28_3, p_img28_4],
         category: "Men",
         subCategory: "Analog",
-        color: "Blue",
+        color: "blue",
         date: 1716626645462,
         bestseller: true
     },
@@ -633,7 +633,7 @@ export const products = [
         image: [p_img29_1, p_img29_2, p_img29_3, p_img29_4],
         category: "Unisex",
         subCategory: "Smart",
-        color: "Blue",
+        color: "blue",
         date: 1716626645463,
         bestseller: false
     },
@@ -649,7 +649,7 @@ export const products = [
         image: [p_img30_1, p_img30_2, p_img30_3, p_img30_4],
         category: "Unisex",
         subCategory: "Smart",
-        color: "Black",
+        color: "black",
         date: 1716626645464,
         bestseller: true
     },
@@ -665,7 +665,7 @@ export const products = [
         image: [p_img31_1, p_img31_2, p_img31_3, p_img31_4],
         category: "Unisex",
         subCategory: "Smart",
-        color: "Brown",
+        color: "brown",
         date: 1716626645465,
         bestseller: true
     },
@@ -681,7 +681,7 @@ export const products = [
         image: [p_img32_1, p_img32_2, p_img32_3, p_img32_4],
         category: "Women",
         subCategory: "Analog",
-        color: "Rose Gold",
+        color: "pink",
         date: 1716626645466,
         bestseller: false
     },
@@ -697,7 +697,7 @@ export const products = [
         image: [p_img33_1, p_img33_2, p_img33_3, p_img33_4],
         category: "Men",
         subCategory: "Analog",
-        color: "Black",
+        color: "black",
         date: 1716626645466,
         bestseller: false
     }

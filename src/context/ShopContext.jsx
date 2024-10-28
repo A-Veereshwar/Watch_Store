@@ -2,16 +2,18 @@ import { createContext } from "react";
 import React, { useEffect, useState } from 'react'
 import { products } from "../assets/assets";
 import { toast } from "react-toastify";
+import { useNavigate } from "react-router-dom";
 
 export const ShopContext = createContext();
 
 const ShopContextProvider = (props) => {
 
     const currency = '₹';
-    const delivery_fee = 40;
+    const delivery_fee = 80;
     const [search,setSearch] = useState('');
     const [showSearch,setShowSearch] = useState(false);
     const [cartItems,setCartItems] = useState({});
+    const navigate = useNavigate();
 
     const addToCart = async (itemId) =>{
 
@@ -37,14 +39,40 @@ const ShopContextProvider = (props) => {
         for(const items in cartItems){
             totalCount+=cartItems[items];
         }
-        console.log(totalCount);
         return totalCount;
+    }
+
+    const updateQuantity = async(itemId,quantity) =>{
+
+        let cartData = structuredClone(cartItems);
+        if(quantity>10){
+            toast.error('Limit Reached');
+            return;
+        }
+
+        cartData[itemId]=quantity;
+        setCartItems(cartData);
+    }
+
+    const getCartAmount = () =>{
+        let totalAmount = 0;
+        for(const items in cartItems){
+            let itemInfo = products.find((product)=> product._id===items);
+            try {
+                if(cartItems[items]>0){
+                    totalAmount+=itemInfo.price*cartItems[items];
+                }
+            } catch (error) {
+                
+            }
+        }
+        return totalAmount;
     }
 
     const value = {
         products, currency, delivery_fee,
         search,setSearch,showSearch,setShowSearch,
-        cartItems,addToCart,getCartCount
+        cartItems,addToCart,getCartCount,updateQuantity,getCartAmount,navigate
     }
 
     return (
